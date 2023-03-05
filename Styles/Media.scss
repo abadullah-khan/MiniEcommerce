@@ -1,0 +1,523 @@
+@media screen and (max-width: 1300px) {
+  .wishlist {
+    .card {
+      width: 35rem;
+      .imgContainer {
+        > img {
+          height: 12rem;
+          width: 12rem;
+        }
+      }
+      > .details {
+        > .aboutProduct {
+          h2 {
+            font-size: 2rem;
+          }
+        }
+        > .btnContainer {
+          button {
+            padding: 0.3rem 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1150px) {
+  .bill {
+    > .card {
+      > .details {
+        > .imgContainer {
+          > img {
+            height: 11rem;
+            width: 11rem;
+          }
+        }
+        p {
+          font-size: 1.1rem;
+        }
+        span {
+          font-size: 1.3rem;
+        }
+      }
+      .totalContainer {
+        > hr {
+          height: 0.2rem;
+        }
+        > .totalCost {
+          > p {
+            font-size: 1.5rem;
+          }
+          > span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .wishlist {
+    .card {
+      width: 30rem;
+      > .details {
+        > .aboutProduct {
+          > h2 {
+            font-size: 1.7rem;
+          }
+          > p {
+            font-size: 1rem;
+          }
+          > .priceContainer {
+            font-size: 1rem;
+          }
+        }
+        > .btnContainer {
+          > button {
+            margin: 0;
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  //navbar
+  header {
+    .logoContainer {
+      font-size: 1.4rem;
+    }
+    .offerContainer {
+      font-size: 1.2rem;
+      @keyframes bhkbhuk {
+        to {
+          color: aqua;
+          font-size: 1.8rem;
+        }
+      }
+    }
+    > nav {
+      .navLink {
+        font-size: 1.2rem;
+        &:hover {
+          font-size: 1.3rem;
+          color: blue;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .carousel_container {
+    > .details {
+      > .aboutProduct {
+        > h1 {
+          font-size: 3rem;
+          color: chocolate;
+        }
+        > p {
+          font-size: 1.2rem;
+        }
+        > .priceContainer {
+          font-size: 1.2rem;
+          > span {
+            font-size: 1.5rem;
+          }
+        }
+        > .btnContainer {
+          > button {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+  //Collection
+  .collection_container {
+    .cardWrapper {
+      .card {
+        width: 20rem;
+        .imgContainer {
+          > img {
+            height: 17rem;
+            width: 17rem;
+          }
+        }
+      }
+    }
+  }
+  //Bill
+  .bill {
+    .card {
+      .details {
+        p {
+          font-size: 1rem;
+        }
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .wishlist {
+    .card {
+      margin: 1rem;
+      width: 50rem;
+      .imgContainer {
+        > img {
+          height: 15rem;
+          width: 15rem;
+        }
+      }
+      .details {
+        .aboutProduct {
+          > h2 {
+            font-size: 2.5rem;
+          }
+          > p {
+            font-size: 1.5rem;
+          }
+          .priceContainer {
+            font-size: 1.5rem;
+          }
+        }
+        .btnContainer {
+          > button {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 985px) {
+  .cart {
+    .cardWrapper {
+      > .card {
+        .imgContainer {
+          img {
+            height: 13rem;
+            width: 13rem;
+          }
+        }
+        .aboutProduct {
+          > .details {
+            > h2 {
+              font-size: 2.2rem;
+            }
+            > p {
+              font-size: 1.1rem;
+            }
+            > .priceContainer {
+              font-size: 1.1rem;
+              > span {
+                font-size: 1.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 965px) {
+  .cart {
+    width: 65vw;
+  }
+  .bill {
+    left: 65vw;
+  }
+}
+@media screen and (max-width: 850px) {
+  .carousel_container {
+    .details {
+      .aboutProduct {
+        h1 {
+          font-size: 2rem;
+        }
+        .btnContainer {
+          button {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 860px) {
+  header {
+    grid-template-columns: 0.5fr 1.3fr 1fr;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .cart {
+    width: 60vw;
+    .cardWrapper {
+      .card {
+        .imgContainer {
+          > img {
+            height: 12rem;
+            width: 12rem;
+          }
+        }
+        .aboutProduct {
+          .details {
+            > h2 {
+              font-size: 1.5rem;
+            }
+            > p {
+              font-size: 1rem;
+            }
+          }
+          .btnContainer {
+            > button {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bill {
+    left: 60vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  .carousel_container {
+    .details {
+      .aboutProduct {
+        .btnContainer {
+          button {
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .cart {
+    .cardWrapper {
+      .card {
+        display: block;
+        width: 20rem;
+        .imgContainer {
+          margin-bottom: 0.5rem;
+          > img {
+            height: 13rem;
+            width: 13rem;
+          }
+        }
+        .aboutProduct {
+          .details {
+            > h2 {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 725px) {
+  .bill {
+    .card {
+      .details {
+        .imgContainer {
+          img {
+            height: 8rem;
+            width: 8rem;
+          }
+        }
+        .userDetails {
+          display: block;
+          text-align: center;
+        }
+        .billDetails {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    .offerContainer {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .wishlist {
+    .card {
+      .imgContainer {
+        > img {
+          height: 13rem;
+          width: 13rem;
+        }
+      }
+      .details {
+        .aboutProduct {
+          > h2 {
+            font-size: 2rem;
+          }
+          > p {
+            font-size: 1.2rem;
+          }
+          .priceContainer {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  .carousel_container {
+    grid-template-columns: 1.7fr 2.5fr;
+    .img_container {
+      > img {
+        height: 55vh;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 585px) {
+  .carousel_container {
+    grid-template-columns: 1.2fr 2.8fr;
+
+    .details {
+      .aboutProduct {
+        p {
+          font-size: 1rem;
+        }
+        .priceContainer {
+          font-size: 1rem;
+          span {
+            font-size: 1.2rem;
+          }
+        }
+        .btnContainer {
+          button {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .wishlist {
+    .card {
+      .imgContainer {
+        > img {
+          height: 11rem;
+          width: 11rem;
+        }
+      }
+      .details {
+        .aboutProduct {
+          > h2 {
+            font-size: 1.5rem;
+          }
+          > p {
+            font-size: 1rem;
+          }
+          > .priceContainer {
+            font-size: 1rem;
+          }
+        }
+        .btnContainer {
+          > button {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .carousel_container {
+    display: flex;
+    flex-direction: column;
+    .img_container {
+      img {
+        height: 40vh;
+        width: 60%;
+      }
+    }
+    .details {
+      .aboutProduct {
+        .btnContainer {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          button {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    nav {
+      .navLink {
+        font-size: 1rem;
+      }
+    }
+  }
+  .wishlist {
+    .card {
+      width: 20rem;
+      display: block;
+      .imgContainer {
+        > img {
+          height: 13rem;
+          width: 10rem;
+        }
+      }
+      .details {
+        .aboutProduct {
+          > h2 {
+            font-size: 2rem;
+          }
+          > p {
+            font-size: 1.3rem;
+          }
+          .priceContainer {
+            font-size: 1.3rem;
+          }
+        }
+        .btnContainer {
+          > button {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 406px) {
+  header {
+    .logoContainer {
+      font-size: 1rem;
+    }
+    nav {
+      > .navLink {
+        margin: 3px;
+      }
+    }
+  }
+}

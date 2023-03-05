@@ -1,0 +1,167 @@
+.cart {
+  min-height: 90vh;
+  width: 70vw;
+  display: flex;
+  > .cardWrapper {
+    width: 100%;
+    background-color: aquamarine;
+    border: 1px solid saddlebrown;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // gap: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    // gap: 0.8rem;
+    // place-items: center;
+    // place-content: center;
+    > .card {
+      width: 50rem;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      background-color: darkcyan;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid salmon;
+      > .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > img {
+          height: 15rem;
+          width: 15rem;
+          object-fit: cover;
+          transition: all 0.5s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      > .aboutProduct {
+        padding-left: 0.5rem;
+        display: grid;
+        place-items: center;
+        > .details {
+          text-align: center;
+          > h2 {
+            text-transform: capitalize;
+            font-size: 3rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+          }
+          > p {
+            font-size: 1.3rem;
+            font-weight: 300;
+          }
+          > .priceContainer {
+            text-align: left;
+            margin: 0.5rem 1.5rem;
+            font-size: 1.3rem;
+            > span {
+              font-size: 1.4rem;
+            }
+          }
+        }
+        > .btnContainer {
+          width: 100%;
+          padding: 0 1.2rem;
+          display: flex;
+          justify-content: space-between;
+          > button {
+            font-size: 18px;
+            padding: 5px 10px;
+            transition: all 0.5s ease;
+            &:hover {
+              cursor: pointer;
+              filter: invert(1);
+              box-shadow: 5px 5px 5px lightgrey;
+            }
+          }
+          > .incDecContainer {
+            display: flex;
+            text-align: center;
+            transition: all 0.5s ease;
+            &:hover {
+              box-shadow: 5px 5px 5px black;
+            }
+            > input {
+              width: 50px;
+              height: 100%;
+              text-align: center;
+              font-size: 18px;
+            }
+            > input[type="number"]::-webkit-inner-spin-button,
+            input[type="number"]::-webkit-outer-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+            > button {
+              transition: all 0.5s ease;
+              &:hover {
+                filter: invert(1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  > .emptyCart {
+    // min-height: 90vh;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h3 {
+      font-size: 2.5rem;
+    }
+    > button {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      font-size: 1.5rem;
+      color: blue;
+      border-radius: 20px;
+      transition: all 0.5s ease;
+      &:hover {
+        filter: invert(1);
+        cursor: pointer;
+        text-decoration: underline;
+        box-shadow: 5px 5px 5px lightgray;
+      }
+    }
+  }
+}
+.notSignedUp {
+  min-height: 90vh;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > h3 {
+    font-size: 2.5rem;
+  }
+  > .btnContainer {
+    > .link {
+      > button {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        color: blue;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        &:hover {
+          filter: invert(1);
+          cursor: pointer;
+          text-decoration: underline;
+          box-shadow: 5px 5px 5px lightgray;
+        }
+      }
+    }
+  }
+}

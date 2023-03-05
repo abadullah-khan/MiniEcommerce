@@ -1,0 +1,91 @@
+.signUp {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background: linear-gradient(
+  //   to right top,
+  //   rgb(54, 136, 16) 20%,
+  //   rgb(26, 192, 98) 60%,
+  //   rgb(54, 136, 16)
+  // );
+  background-color: aquamarine;
+  > .card {
+    width: 25rem;
+    background-color: cadetblue;
+    // background: linear-gradient(
+    //   to right top,
+    //   seagreen,
+    //   rgb(196, 196, 17) 20%,
+    //   rgb(25, 25, 248)
+    // );
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    > form {
+      > .imgContainer {
+        > input {
+          font-size: 1.1rem;
+        }
+      }
+      > .inputDetails {
+        > label {
+          display: block;
+          font-size: 1.3rem;
+          margin-top: 0.5rem;
+          padding-left: 0.3rem;
+        }
+        > input {
+          display: block;
+          width: 100%;
+          padding: 0.3rem;
+          font-size: 1.2rem;
+          text-align: center;
+          border-radius: 10px;
+          border: none;
+        }
+        > input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+      > .btnContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        > button {
+          margin: 1rem;
+          padding: 0.5rem;
+          font-size: 1.5rem;
+          width: fit-content;
+          border-radius: 15px;
+          cursor: pointer;
+          &:active {
+            filter: invert(1);
+          }
+        }
+        > p {
+          > button {
+            padding: 0.2rem;
+            font-size: 1.2rem;
+            color: blue;
+            border-radius: 10px;
+            &:hover {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+            &:active {
+              filter: invert(1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

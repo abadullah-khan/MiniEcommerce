@@ -1,0 +1,81 @@
+.bill {
+  min-height: 90vh;
+  // width: 30%;
+  border: 2px solid seagreen;
+  position: fixed;
+  top: 10vh;
+  bottom: 0;
+  right: 0;
+  left: 70vw;
+  > .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    > .details {
+      background-color: brown;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      > .imgContainer {
+        background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        > img {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+          border-radius: 50%;
+          border: 5px solid yellow;
+          object-fit: cover;
+        }
+      }
+      p {
+        font-weight: 300;
+        font-size: 1.2rem;
+      }
+      span {
+        text-align: end;
+        font-size: 1.5rem;
+        color: gainsboro;
+      }
+      > .userDetails {
+        background-color: burlywood;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0.5rem 0.5rem;
+        > :nth-child(2) {
+          text-transform: capitalize;
+        }
+      }
+      > .billDetails {
+        margin-top: 0.5rem;
+        background-color: brown;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 0.5rem;
+        height: 100%;
+      }
+    }
+    > .totalContainer {
+      background-color: cornflowerblue;
+      > hr {
+        height: 0.3rem;
+        background-color: black;
+        border: 0;
+      }
+      > .totalCost {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.2rem 0.5rem;
+        > p {
+          font-size: 1.8rem;
+        }
+        > span {
+          font-size: 2rem;
+          color: gainsboro;
+        }
+      }
+    }
+  }
+}
