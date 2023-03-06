@@ -7,7 +7,6 @@ import { Error } from "./Components/Pages/Error/Error";
 import { Home } from "./Components/Pages/Home/Home";
 import { Wishlist } from "./Components/Pages/Wislist/Wishlist";
 import { Cart } from "./Components/Pages/Cart/Cart";
-import { Footer } from "./Components/Footer/Footer";
 
 import "./Styles/MiniEcommRdx.scss";
 import "./Styles/Nav.scss";
@@ -33,8 +32,6 @@ export const MiniEcommRdx = () => {
             <Route path="cart" element={<Cart />} />
             <Route path="signUp/logIn" element={<SignUp />} />
           </Routes>
-
-          {/* <Footer /> */}
         </BrowserRouter>
       </Provider>
     </>

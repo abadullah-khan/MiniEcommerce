@@ -7,9 +7,6 @@ const CartSlice = createSlice({
     cart: [],
     wishlist: [],
     items: Assets,
-    // totalQuantity: 0,
-    // totalPrice: 0,
-    // isPresent: null,
     formToggle: true,
     formInput: {},
     formData: {
@@ -25,16 +22,8 @@ const CartSlice = createSlice({
       const { cart } = state;
       const isPresent = cart.findIndex((i) => i.id === action.payload.id);
       if (isPresent >= 0) {
-        // state = cart.map((e) =>  {
-        // e.id === action.payload.id ? { ...e, quantity: e.quantity + 1 } : e
-        //   if (e.id === action.payload.id) {
-        //     return { ...e, quantity: e.quantity + 1 };
-        //   }
-        //   return e;
-        // });
         state.cart[isPresent].quantity += 1;
       } else {
-        // state.cart = [...cart, { ...action.payload, quantity: 1 }];
         state = cart.push({ ...action.payload, quantity: 1 });
       }
     },
@@ -58,9 +47,6 @@ const CartSlice = createSlice({
       });
     },
     incQuantity(state, action) {
-      // state.cart.map((e) => {
-      //   return e.id === action.payload ? { ...e, quantity: e.quantity + 1 } : e;
-      // });
       const isPresent = state.cart.findIndex((i) => i.id === action.payload);
       state.cart[isPresent].quantity += 1;
     },

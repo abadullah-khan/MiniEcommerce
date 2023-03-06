@@ -27,8 +27,6 @@ export const Cart = () => {
   const gotTax = (totalCost / 100) * tax;
   totalCost = (totalCost + gotTax).toFixed(2);
 
-  // const {name, email, contact} = formData
-
   return (
     <>
       {formData.name !== "none" ? (

@@ -6,17 +6,10 @@
     width: 100%;
     background-color: aquamarine;
     border: 1px solid saddlebrown;
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // gap: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    // justify-content: space-around;
-    // gap: 0.8rem;
-    // place-items: center;
-    // place-content: center;
     > .card {
       width: 50rem;
       margin: 0.5rem;
@@ -110,7 +103,6 @@
     }
   }
   > .emptyCart {
-    // min-height: 90vh;
     width: 100%;
     background-color: darkcyan;
     display: flex;

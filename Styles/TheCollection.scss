@@ -1,17 +1,8 @@
 .collection_container {
   .cardWrapper {
-    // padding: 2rem;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-auto-flow: dense;
-    // grid-template: ;
-    // grid-template-columns: max-content;
-    // grid-template-areas: ;
-    // grid-template-columns: max-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    // justify-content: safe;
     align-items: center;
     .card {
       margin: 1rem 0.5rem;

@@ -3,7 +3,6 @@ header {
   padding: 0.5rem;
   background-color: cadetblue;
   display: grid;
-  //   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: 0.5fr 2fr 1fr;
   gap: 0.5rem;
   place-items: center;
@@ -14,7 +13,6 @@ header {
   .logoContainer {
     place-self: start;
     align-self: center;
-    // grid-row: 1 / 2 span;
     font-size: 1.7rem;
     color: chartreuse;
     animation: fire 0.5s infinite alternate linear;
@@ -25,7 +23,6 @@ header {
     }
   }
   .offerContainer {
-    // border: 2px solid yellow;
     font-size: 2rem;
     color: magenta;
     animation: bhkbhuk 0.5s infinite alternate linear;
